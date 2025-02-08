@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Projects | Portfolio and Resume</title>
+  <link type="text/css" rel="stylesheet" href="projects.css">
+</head>
+
+<body>
+  <div id="page-wrapper">
+    <!-- Start of Header for Projects Page -->
+    <header>
+      <h1><strong>Vincent Le</strong></h1>
+      <p>Project | Digital Resume Portfolio</p>
+    </header>
+
+    <!-- Start of Navigation Bar for Projects Page -->
+    <div id="container">
+      <nav>
+        <ul>
+          <li><a href="../home/index.html">Home</a></li>
+          <li><a href="../education/education.html">Education</a></li>
+          <li><a href="../experiences/experiences.html">Experiences</a></li>
+          <!-- <li><a href="../testimonies/testimonies.html">Testimonies</a></li> -->
+          <li><a href="../achievements/achievements.html">Achievements</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="../contact/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Start of Main for Projects Page -->
+      <main>
+        <h1 id="main-title">Projects</h1>
+        <div id="main">
+          <h2>JavaScript Calculator</h2>
+          <div id="inputs-group">
+            <label for="first-number">First Number:</label>
+            <input type="text" id="first-number">
+            <label for="second-number">Second Number:</label>
+            <input type="text" id="second-number">
+          </div>
+          <div id="button-group">
+            <button class="button" onclick="addition()">  +  </button>
+            <button class="button" onclick="subtraction()">  -  </button>
+            <button class="button" onclick="multiplication()">  *  </button>
+            <button class="button" onclick="division()">  /  </button>
+            <button class="button" onclick="power()">  ^  </button>
+            <button class="button" onclick="reset()">Reset</button>
+          </div>
+          <div id="output-group">
+            <h3 id="output"></h3>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- Start of Footer for Projects Page -->
+    <footer>
+      <p>All rights reserved: <a href=""> Credits</a> &#169;</p>
+    </footer>
+  </div>
+  <!-- Script tag for JavaScript -->
+  <script src="projects.js"></script>
+</body>
+</html>
